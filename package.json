@@ -1,6 +1,6 @@
 {
   "name": "react-ex-icon",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Icon component implemented by react",
   "main": "lib/index.js",
   "engines": {
@@ -65,7 +65,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xqstencils/react-ex-icon.git"
+    "url": "git+https://github.com/react-ex/react-ex-icon.git"
   },
   "keywords": [
     "node",
@@ -76,7 +76,7 @@
   "contributors": [],
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/xqstencils/react-ex-icon/issues"
+    "url": "https://github.com/react-ex/react-ex-icon/issues"
   },
-  "homepage": "https://github.com/xqstencils/react-ex-icon#readme"
+  "homepage": "https://github.com/react-ex/react-ex-icon#readme"
 }

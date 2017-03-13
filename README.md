@@ -5,7 +5,7 @@ Icon component implemented by react
 
 [![NPM Version](https://img.shields.io/npm/v/react-ex-icon.svg)](https://npmjs.org/package/react-ex-icon)
 [![NPM Downloads](https://img.shields.io/npm/dm/react-ex-icon.svg)](https://npmjs.org/package/react-ex-icon)
-[![Build Status](https://travis-ci.org/xqstencils/react-ex-icon.svg?branch=master)](https://travis-ci.org/xqstencils/react-ex-icon)
+[![Build Status](https://travis-ci.org/react-ex/react-ex-icon.svg?branch=master)](https://travis-ci.org/react-ex/react-ex-icon)
 
 [![NPM](https://nodei.co/npm/react-ex-icon.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-ex-icon/)
 
