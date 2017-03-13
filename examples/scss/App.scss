@@ -1,24 +1,49 @@
-html{
-  font-size: 14px;
-
-  @media only screen and (min-width: 801px) {
-    font-size: 16px;
-  }
+.react-ex-icon {
+  font-family:"react-ex-icon-fonts" !important;
+  font-size:24px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-body {
-  padding: 0;
-  margin: 0;
-}
+.demo {
+  width: 800px;
+  margin: 50px auto;
+  &__first {
+    margin: 20px auto;
+    width: 800px;
+    height: 80px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    padding: 10px;
 
-#root {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 50px 10px;
-  box-sizing: border-box;
+    &__title {
+      margin: 10px;
+    }
 
-  a, a:visited {
-    color: red;
+    &__one {
+      margin: 10px;
+      &:before {
+        content: "\e61b";
+      }
+    }
   }
 
+  &__second {
+    margin: 20px auto;
+    width: 800px;
+    height: 80px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    padding: 10px;
+    font-family:"react-ex-icon-fonts" !important;
+
+    &__title {
+      margin: 10px;
+    }
+
+    &__one {
+      margin: 10px;
+    }
+  }
 }

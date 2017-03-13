@@ -24,7 +24,12 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.js$/, loader: 'babel', include },
-      { test: /\.(jpe?g|png|gif|svg)$/i, loader: 'url?limit=10000' },
+      { test: /\.eot/i, loader: 'file' },
+      { test: /\.ttf/i, loader: 'file?mimetype=application/octet-stream' },
+      { test: /\.svg$/i, loader: 'file?mimetype=image/svg+xml' },
+      { test: /\.woff$/i, loader: 'file?mimetype=application/font-woff' },
+      { test: /\.woff2$/i, loader: 'file?mimetype=application/font-woff' },
+      { test: /\.(jpe?g|png|gif)$/i, loader: 'url?limit=10000' },
       { test: /\.(s)*css$/, loader: "style!css!sass" }
     ]
   }
