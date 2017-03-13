@@ -3,4 +3,4 @@ set -e -u
 
 yarn install
 yarn run build
-yarn publish
+npm publish
