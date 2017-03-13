@@ -15,7 +15,7 @@ export default class App extends Component {
         </section>
 
         <section className="demo__second">
-          <div className="demo__second__title">{ '<Icon className="demo__second__one">&#xe61e;</Icon>' }</div>
+          <div className="demo__second__title">{ '<Icon className="class name">icon unicode</Icon>' }</div>
           <Icon className="demo__second__one">&#xe61e;</Icon>
         </section>
       </div>
